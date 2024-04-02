@@ -576,7 +576,8 @@ a:hover
 
     
     border: 5px solid #fff;
-/*     opacity: 0.7; */
+    opacity: 0.7;
+    background: #020026;
     background-image: url(../img/leaf.jpg);
     background-position: center;
     background-size: cover;
