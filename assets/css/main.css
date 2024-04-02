@@ -296,11 +296,12 @@ a:hover {
 }
 
 .hero .front-content .container-mid {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 0;
 
-    width: 100%;
+    /*width: 100%;*/
+    /*align-content: center;*/
 
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -332,6 +333,7 @@ a:hover {
     margin-right: auto;
     margin-bottom: 1.3em;
     margin-left: auto;
+    
 
     letter-spacing: 0.025em;
 }
@@ -375,7 +377,7 @@ a:hover {
 }
 
 .hero .front-content .footer p {
-    font-size: 1.3rem;
+    font-size: 2rem;
 
     letter-spacing: 0.025em;
 
@@ -496,7 +498,7 @@ a:hover {
     top: 60%;
     left: 50%;
 
-    max-width: 50%;
+    max-width: 70%;
     padding: 5%;
 
     -webkit-transform: translate(-50%, -50%);
@@ -590,12 +592,12 @@ a:hover {
 }
 
 .popup .card p.subline {
-    font-size: 1.6rem;
+    font-size: 175%;
     
-    max-width: 16em;
-    margin-right: auto;
+    max-width: auto;
+    /*margin-right: auto;*/
     margin-bottom: 1em;
-    margin-left: auto;
+    /*margin-left: auto;*/
 
     letter-spacing: 0.025em;
 }
