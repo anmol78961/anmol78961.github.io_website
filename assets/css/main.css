@@ -503,11 +503,11 @@ a:hover {
 
 /*     -webkit-transform: translate(-50%, -50%); */
 /*     -ms-transform: translate(-50%, -50%); */
-    transform: translate(-15vw, -25vh);
+    transform: translate(-50%, -50%);
     text-align: center;
     border: 5px solid #fff;
     
-    background-image: url("assets/img/leaf.jpg");
+    background-image: url("../img/card-background.jpg");
     background-position: center;
     background-size: cover;
 }
