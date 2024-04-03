@@ -493,24 +493,21 @@ a:hover {
 }
 
 .popup .card {
-    position: relative;
+    position: absolute;
     /*z-index: 5;*/
-    top: 60%;
-    left: 50%;
+/*     top: 60%; */
+    left: 50vw;
 
     max-width: 70%;
-    padding: 5%;
+    padding: 5vw;
 
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+/*     -webkit-transform: translate(-50%, -50%); */
+/*     -ms-transform: translate(-50%, -50%); */
+    transform: translate(-15vw, -25vh);
     text-align: center;
-
     border: 5px solid #fff;
-    background-color: #020026;
-    /*opacity: 0.7;*/
-    background-image: url("assets/img/card-background.jpg");
-    background-repeat: no-repeat;
+    
+    background-image: url("assets/img/leaf.jpg");
     background-position: center;
     background-size: cover;
 }
